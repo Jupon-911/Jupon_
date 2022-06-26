@@ -1,4 +1,4 @@
-#---------------[ SELAMAT-MERICODE ]-------------#
+#---------------[ Ini Cuma Rehabilitasi ]-------------#
 
 import requests,bs4,json,os,sys,random,datetime,time,re,platform
 import urllib3,rich,base64
@@ -70,7 +70,6 @@ p = '\x1b[0;34m' # BIRU +
 kk = '\x1b[1;96m'
 #------------------[ CHEKPOINT-DETEKTOR ]--------------------#
 def gabut():
-    os.system('clear')
     dirs = os.listdir("CP")
     cetak(nel('\t[cyan]•[white] Hasil [yellow]CheckPoint[white] Yang Tersimpan Di File Anda [cyan]•[white]'))
     for file in dirs:
