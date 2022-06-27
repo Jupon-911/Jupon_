@@ -103,6 +103,7 @@ def gabut():
         print("")
     print("")
     print(f'   {x}[ {h}Proses Check Selesai {x}]\n');exit()
+
 def log_hasil(user, pasw):
     global aman,cp,salah
     session=requests.Session()
